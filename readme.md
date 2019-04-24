@@ -2,6 +2,7 @@
 
 ## 配置要抢的网页
 1.在script.js中将window.location.assign("URL")中的URL替换成你需要刷新的网址，目前仅支持北航实验系统
+
 2.在manifest.json中将"matches": ["URL"],中的URL替换成你需要刷新的网址，目前仅支持北航实验系统
 
 ## 导入Chrome扩展程序
