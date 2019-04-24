@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome抢票脚本",
+  "version": "1.0",
+  "description": "chrome 抢票脚本示例",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://202.112.139.62/Admin?CenterBoxUrl=/Equipment/AppointmentBoxIndex%3Fid%3Db1c96ead-08c2-4047-8ce6-3420d78150a7%26time%3D855"],
+      "js": ["script.js"]
+    }
+  ]
+}
+
